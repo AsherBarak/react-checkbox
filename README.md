@@ -15,11 +15,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - If `class` prop is passed is should be applied to the checkbox.
 - Content of the CheckBox element is displayed as the checkbox label (arbitrary HTML may be used).
 
-##Testing
+## Testing
 The checkbox component is validated using snapshot tests and DOM test using Enzyme.
 Tests are not comprehensive.
 
-##Usage
+## Usage
 This repo is for trials and fun only. It is not packaged for professional use.
 
 ## Author
