@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders consistent tree 1`] = `
+<div
+  className=""
+>
+  <span
+    className="icon"
+    onClick={[Function]}
+  >
+    <span>
+       ☐
+    </span>
+  </span>
+   
+</div>
+`;
