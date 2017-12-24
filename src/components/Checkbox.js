@@ -20,9 +20,13 @@ class Checkbox extends Component {
             ? <span> &#9745;</span>
             :<span> &#x2610;</span>
 
+            let cssClass= (this.props.className)
+            ?this.props.className
+            :'';
+
         return (
-            <div>
-                <span onClick={this.handleClick}>{icon}</span> {this.props.children}
+            <div className={cssClass}>
+                <span className='icon' onClick={this.handleClick}>{icon}</span> {this.props.children}
             </div>
         );
     }

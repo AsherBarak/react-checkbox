@@ -21,7 +21,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">A React Checkbox</h1>
         </header>
-        <Checkbox onChange={this.onCheckChange}>Check me out</Checkbox>
+        <Checkbox onChange={this.onCheckChange}  className='checkBox'>Check me out</Checkbox>
         <input type='checkbox'/>System checkbox for comparison
         <div>Check state in containing component: {this.state.check.toString()}</div>
       </div>
