@@ -6,9 +6,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Table of Contents
 
 - [Spec](#Spec)
-- [Author](#Author)
 - [Testing](#Testing)
 - [Usage](#Usage)
+- [Author](#Author)
 
 ## Spec
 - Clicking on the box would change the check state and invoke the `onChange` event.
